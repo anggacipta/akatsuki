@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kotnak</title>
+    <title>Akatsuki</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,50 +13,45 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="css/test.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="bg-dark">
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand px-2 logo-font" href="#">Akatsuki</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light mx-2">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kontak</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pendidikan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hobby</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Galeri</a>
-            </li>
-          </ul>
+        <div class="container-fluid">
+            <a class="navbar-brand px-2 logo-font" href="#">Akatsuki</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light mx-2">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pendidikan.html">Pendidikan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobby.html">Hobby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galeri</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
-
+    <!-- end navbar -->
+    <!-- content -->
     <div class="container mt-3">
       <h2 class="px-2">Contact</h2>
       <div class="row">
         <div class="col-sm-6 mb-3 mb-sm-0">
-          <div class="card">
+          <div class="card border-white bg-dark">
             <div class="card-body">
-              <h5 class="card-title">Angga</h5>
+              <h5 class="card-title text-white">Angga Cipta Pranata</h5>
               <div class="row">
                 <div class="col">
                   <a href="#" class="btn btn-primary mt-2 bi bi-whatsapp text-center bg-success border border-0" style="width: 100%;"> WhatsApp</a>
@@ -76,9 +71,9 @@
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="card">
+          <div class="card border-white bg-dark">
             <div class="card-body">
-              <h5 class="card-title">Putra</h5>
+              <h5 class="card-title text-white">Rasyid Putra Wiendata</h5>
               <div class="row">
                 <div class="col">
                   <a href="#" class="btn btn-primary mt-2 bi bi-whatsapp text-center bg-success border border-0" style="width: 100%;"> WhatsApp</a>
@@ -145,6 +140,34 @@
         </div>
       </div>
     </div>
+    <!-- end content -->
+    <!-- footer -->
+    <div class="mx-3">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-light">© 2024 Akatsuki</p>
+    
+            <p class="navbar-brand px-2 logo-font text-light">Akatsuki</p>
+    
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item">
+                    <p href="#" class="px-2 text-light">Home</p>
+                </li>
+                <li class="nav-item">
+                    <p href="#" class="px-2 text-light">Features</p>
+                </li>
+                <li class="nav-item">
+                    <p href="#" class="px-2 text-light">Pricing</p>
+                </li>
+                <li class="nav-item">
+                    <p href="#" class="px-2 text-light">FAQs</p>
+                </li>
+                <li class="nav-item">
+                    <p href="#" class="px-2 text-light">About</p>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <!-- end footer -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
