@@ -11,66 +11,37 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body class="bg-dark">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand px-2 logo-font" href="#">Akatsuki</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light mx-2">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+              <a class="nav-link" href="contact.html">Kontak</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="pendidikan.html">Pendidikan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobby.html">Hobby</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galeri</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
+    <!-- end navbar -->
 
     <div class="container-fluid">
       <div class="col-lg-12 top-50 start-50">
@@ -217,6 +188,34 @@
         <!-- Gallery -->
       </div>
     </div>
+
+    <!-- footer -->
+    <div class="mx-3">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-light">© 2024 Akatsuki</p>
+    
+        <p class="navbar-brand px-2 logo-font text-light">Akatsuki</p>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <p href="#" class="px-2 text-light">Home</p>
+          </li>
+          <li class="nav-item">
+            <p href="#" class="px-2 text-light">Features</p>
+          </li>
+          <li class="nav-item">
+            <p href="#" class="px-2 text-light">Pricing</p>
+          </li>
+          <li class="nav-item">
+            <p href="#" class="px-2 text-light">FAQs</p>
+          </li>
+          <li class="nav-item">
+            <p href="#" class="px-2 text-light">About</p>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- end footer -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
